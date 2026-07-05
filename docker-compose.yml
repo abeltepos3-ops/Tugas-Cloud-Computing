@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: app-keuangan
+    ports:
+      - "8081:80"
+    restart: unless-stopped
