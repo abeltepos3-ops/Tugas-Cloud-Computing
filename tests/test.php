@@ -1,8 +1,8 @@
 <?php
 echo "Memulai pengujian otomatis...\n";
 
-// Mengecek apakah file index.php ada di folder utama aplikasi
-if (file_exists(__DIR__ . '/../index.php')) {
+
+if (file_exists(__DIR__ . '/../index.html')) {
     echo "STATUS: BERHASIL. File utama aplikasi ditemukan.\n";
     exit(0); // Memberi sinyal ke GitHub Actions bahwa tes sukses
 } else {
